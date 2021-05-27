@@ -26,3 +26,14 @@ IP-CIDR,149.154.160.0/20,𝔼𝕩𝔽𝕝𝕦𝕩-𝕊𝔾
 IP-CIDR6,2001:b28:f23d::/48,𝔼𝕩𝔽𝕝𝕦𝕩-𝕊𝔾
 IP-CIDR6,2001:b28:f23f::/48,𝔼𝕩𝔽𝕝𝕦𝕩-𝕊𝔾
 IP-CIDR6,2001:67c:4e8::/48,𝔼𝕩𝔽𝕝𝕦𝕩-𝕊𝔾
+# Twitter (Spring for Twitter)
+USER-AGENT,Spring*,𝔼𝕩𝔽𝕝𝕦𝕩-𝕌𝕊
+DOMAIN-SUFFIX,pscp.tv,𝔼𝕩𝔽𝕝𝕦𝕩-𝕌𝕊
+DOMAIN-SUFFIX,periscope.tv,𝔼𝕩𝔽𝕝𝕦𝕩-𝕌𝕊
+DOMAIN-SUFFIX,t.co,𝔼𝕩𝔽𝕝𝕦𝕩-𝕌𝕊
+DOMAIN-SUFFIX,twimg.co,𝔼𝕩𝔽𝕝𝕦𝕩-𝕌𝕊
+DOMAIN-SUFFIX,twimg.com,𝔼𝕩𝔽𝕝𝕦𝕩-𝕌𝕊
+DOMAIN-SUFFIX,twitpic.com,𝔼𝕩𝔽𝕝𝕦𝕩-𝕌𝕊
+DOMAIN-SUFFIX,twitter.com,𝔼𝕩𝔽𝕝𝕦𝕩-𝕌𝕊
+DOMAIN-SUFFIX,twitter.jp,𝔼𝕩𝔽𝕝𝕦𝕩-𝕁ℙ
+DOMAIN-SUFFIX,vine.co,𝔼𝕩𝔽𝕝𝕦𝕩-𝕌𝕊
