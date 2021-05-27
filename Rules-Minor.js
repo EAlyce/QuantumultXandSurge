@@ -1,2 +1,0 @@
-# Downie
-USER-AGENT,Downie*
