@@ -1,0 +1,2 @@
+# Epic
+DOMAIN,rsshub.app
