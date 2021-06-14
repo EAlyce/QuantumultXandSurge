@@ -8,6 +8,11 @@ DOMAIN,news-client.apple.com,𝔼𝕩𝔽𝕝𝕦𝕩-𝕌𝕊
 DOMAIN,news-events.apple.com,𝔼𝕩𝔽𝕝𝕦𝕩-𝕌𝕊
 DOMAIN,news-edge.apple.com,𝔼𝕩𝔽𝕝𝕦𝕩-𝕌𝕊
 PROCESS-NAME,News,𝔼𝕩𝔽𝕝𝕦𝕩-𝕌𝕊
+# PayPal
+USER-AGENT,PayPal*
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypal.me
+DOMAIN-SUFFIX,paypalobjects.com
 # Telegram
 DOMAIN-SUFFIX,t.me,𝔼𝕩𝔽𝕝𝕦𝕩-𝕊𝔾
 DOMAIN-SUFFIX,tdesktop.com,𝔼𝕩𝔽𝕝𝕦𝕩-𝕊𝔾
