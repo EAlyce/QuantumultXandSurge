@@ -1,13 +1,36 @@
 # Apple News
-USER-AGENT,com.apple.news*,𝕌𝕊
 DOMAIN,gateway.icloud.com,𝕌𝕊
-DOMAIN,gspe1-ssl.ls.apple.com,𝕌𝕊
+# Will let Map use data from TOMTOM
+#DOMAIN,gspe1-ssl.ls.apple.com,𝕌𝕊
 DOMAIN-SUFFIX,apple.news,𝕌𝕊
-DOMAIN,apple.comscoreresearch.com,𝕌𝕊
+DOMAIN,news-assets.apple.com,𝕌𝕊
 DOMAIN,news-client.apple.com,𝕌𝕊
-DOMAIN,news-events.apple.com,𝕌𝕊
 DOMAIN,news-edge.apple.com,𝕌𝕊
-PROCESS-NAME,News,𝕌𝕊
+DOMAIN,news-events.apple.com,𝕌𝕊
+DOMAIN,apple.comscoreresearch.com,𝕌𝕊
+# Apple News Browsing
+DOMAIN-SUFFIX,aaplimg.com,𝕌𝕊
+DOMAIN-SUFFIX,apple.co,𝕌𝕊
+DOMAIN-SUFFIX,apple.com,𝕌𝕊
+DOMAIN-SUFFIX,apple.com.cn,𝕌𝕊
+DOMAIN-SUFFIX,apple-cloudkit.com,𝕌𝕊
+DOMAIN-SUFFIX,appstore.com,𝕌𝕊
+DOMAIN-SUFFIX,cdn-apple.com,𝕌𝕊
+DOMAIN-SUFFIX,icloud.com,𝕌𝕊
+DOMAIN-SUFFIX,icloud.com.cn,𝕌𝕊
+DOMAIN-SUFFIX,icloud-content.com,𝕌𝕊
+DOMAIN-SUFFIX,me.com,𝕌𝕊
+DOMAIN-SUFFIX,mzstatic.com,𝕌𝕊
+DOMAIN-KEYWORD,apple.com.akadns.net,𝕌𝕊
+DOMAIN-KEYWORD,icloud.com.akadns.net,𝕌𝕊
+IP-CIDR,17.0.0.0/8,𝕌𝕊
+IP-CIDR,63.92.224.0/19,𝕌𝕊
+IP-CIDR,65.199.22.0/23,𝕌𝕊
+IP-CIDR,139.178.128.0/18,𝕌𝕊
+IP-CIDR,144.178.0.0/19,𝕌𝕊
+IP-CIDR,192.35.50.0/24,𝕌𝕊
+IP-CIDR,198.183.17.0/24,𝕌𝕊
+IP-CIDR,205.180.175.0/24,𝕌𝕊
 # PayPal
 USER-AGENT,PayPal*,𝕌𝕊
 DOMAIN-SUFFIX,paypal.com,𝕌𝕊
