@@ -5,6 +5,6 @@ DOMAIN,cf-media.sndcdn.com
 DOMAIN,media.simplecastcdn.com
 DOMAIN,hwcdn.libsyn.com
 DOMAIN,chtbl.com
-DOMAIN,media.fireside.fm
+DOMAIN-SUFFIX,fireside.fm
 DOMAIN-SUFFIX,megaphone.fm
 DOMAIN-SUFFIX,pod.npr.org
