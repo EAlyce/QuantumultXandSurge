@@ -26,7 +26,6 @@ DOMAIN-KEYWORD,uk-live
 PROCESS-NAME,/Applications/Emby.app/Contents/MacOS/Infuse
 USER-AGENT,Infuse*
 DOMAIN-KEYWORD,emby
-DOMAIN,cf1.jmsooo.com
 URL-REGEX,emby
 # HBO NOW & Max
 USER-AGENT,HBO%20NOW*
