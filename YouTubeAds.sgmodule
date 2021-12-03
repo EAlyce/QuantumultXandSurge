@@ -1,0 +1,9 @@
+#!name=YouTube Ads
+#!desc=Remove YouTube Ads
+
+
+[Script]
+YouTube Ads = type=http-request,pattern=^https://.*.googlevideo.com/.+&(oad|ctier)=(?!A),script-path=https://raw.githubusercontent.com/QiongBan/QuantumultXandSurge/main/YouTube%20Ads.js
+
+[MITM]
+hostname = %APPEND% *.googlevideo.com
