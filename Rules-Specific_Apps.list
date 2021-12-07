@@ -13,14 +13,3 @@ USER-AGENT,PayPal*,𝕌𝕊
 DOMAIN-SUFFIX,paypal.com,𝕌𝕊
 DOMAIN-SUFFIX,paypal.me,𝕌𝕊
 DOMAIN-SUFFIX,paypalobjects.com,𝕌𝕊
-# Twitter (Spring for Twitter)
-USER-AGENT,Spring*,𝕌𝕊
-DOMAIN-SUFFIX,pscp.tv,𝕌𝕊
-DOMAIN-SUFFIX,periscope.tv,𝕌𝕊
-DOMAIN-SUFFIX,t.co,𝕌𝕊
-DOMAIN-SUFFIX,twimg.co,𝕌𝕊
-DOMAIN-SUFFIX,twimg.com,𝕌𝕊
-DOMAIN-SUFFIX,twitpic.com,𝕌𝕊
-DOMAIN-SUFFIX,twitter.com,𝕌𝕊
-DOMAIN-SUFFIX,twitter.jp,𝕁ℙ
-DOMAIN-SUFFIX,vine.co,𝕌𝕊
