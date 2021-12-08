@@ -22,11 +22,6 @@ DOMAIN-SUFFIX,bbc.co.uk
 DOMAIN-SUFFIX,bbci.co.uk
 DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,uk-live
-# Emby
-PROCESS-NAME,/Applications/Emby.app/Contents/MacOS/Infuse
-USER-AGENT,Infuse*
-DOMAIN-KEYWORD,emby
-URL-REGEX,emby
 # HBO NOW & Max
 USER-AGENT,HBO%20NOW*
 DOMAIN-SUFFIX,hbo.com
