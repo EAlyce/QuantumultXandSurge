@@ -58,7 +58,7 @@ if(net=="en0") {
       title:"𝐒𝐭𝐚𝐭𝐬 | "+netType,
       content:`𝐔𝐬𝐚𝐠𝐞 ➟ ${upload} | ${download}\n`+
       `𝐂𝐮𝐫𝐫 ➟ ${outCurrentSpeed} | ${inCurrentSpeed}\n` +
-		`𝐏𝐞𝐚𝐤 ➟ ${outMaxSpeed} | ${inMaxSpeed}`,
+      `𝐏𝐞𝐚𝐤 ➟ ${outMaxSpeed} | ${inMaxSpeed}`,
 		icon: params.icon,
 		  "icon-color":params.color
     });
