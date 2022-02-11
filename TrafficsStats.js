@@ -57,8 +57,8 @@ if(net=="en0") {
   $done({
       title:"Stats | "+netType,
       content:`Usage ➟ ${upload} | ${download}\n`+
-      `Current Speed ➟ ${outCurrentSpeed} | ${inCurrentSpeed}\n` +
-		`Maximum Speed ➟ ${outMaxSpeed} | ${inMaxSpeed}`,
+      `Now ➟ ${outCurrentSpeed} | ${inCurrentSpeed}\n` +
+		`Peak ➟ ${outMaxSpeed} | ${inMaxSpeed}`,
 		icon: params.icon,
 		  "icon-color":params.color
     });
