@@ -48,17 +48,17 @@ let inCurrentSpeed = speedTransform(network.inCurrentSpeed) //下载速度
 /* 判断网络类型 */
 let netType;
 if(net=="en0") {
-	netType = "WiFi"
+	netType = "𝐖𝐢-𝐅𝐢"
 	}else{
-	netType = "Cellular"
+	netType = "𝐂𝐞𝐥𝐥𝐮𝐥𝐚𝐫"
 	}
 
 
   $done({
-      title:"Stats | "+netType,
-      content:`Usage ➟ ${upload} | ${download}\n`+
-      `实时 ➟ ${outCurrentSpeed} | ${inCurrentSpeed}\n` +
-		`峰值 ➟ ${outMaxSpeed} | ${inMaxSpeed}`,
+      title:"𝐒𝐭𝐚𝐭𝐬 | "+netType,
+      content:`𝐔𝐬𝐚𝐠𝐞 ➟ ${upload} | ${download}\n`+
+      `𝐂𝐮𝐫𝐫 ➟ ${outCurrentSpeed} | ${inCurrentSpeed}\n` +
+		`𝐏𝐞𝐚𝐤 ➟ ${outMaxSpeed} | ${inMaxSpeed}`,
 		icon: params.icon,
 		  "icon-color":params.color
     });
@@ -66,17 +66,17 @@ if(net=="en0") {
 })()
 
 function bytesToSize(bytes) {
-  if (bytes === 0) return "0B";
+  if (bytes === 0) return "𝟎𝐁";
   let k = 1024;
-  sizes = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
+  sizes = ["𝐁", "𝐊𝐁", "𝐌𝐁", "𝐆𝐁", "𝐓𝐁", "𝐏𝐁", "𝐄𝐁", "𝐙𝐁", "𝐘𝐁"];
   let i = Math.floor(Math.log(bytes) / Math.log(k));
   return (bytes / Math.pow(k, i)).toFixed(2) + " " + sizes[i];
 }
 
 function speedTransform(bytes) {
-  if (bytes === 0) return "0B/s";
+  if (bytes === 0) return "𝟎𝐁/𝐬";
   let k = 1024;
-  sizes = ["B/s", "KB/s", "MB/s", "GB/s", "TB/s", "PB/s", "EB/s", "ZB/s", "YB/s"];
+  sizes = ["𝐁/𝐬", "𝐊𝐁/𝐬", "𝐌𝐁/𝐬", "𝐆𝐁/𝐬", "𝐓𝐁/𝐬", "𝐏𝐁/𝐬", "𝐄𝐁/𝐬", "𝐙𝐁/𝐬", "𝐘𝐁/𝐬"];
   let i = Math.floor(Math.log(bytes) / Math.log(k));
   return (bytes / Math.pow(k, i)).toFixed(2) + " " + sizes[i];
 }

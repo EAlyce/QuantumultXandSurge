@@ -11,7 +11,7 @@ if ($trigger == "button") await httpAPI("/v1/profiles/reload");
 
   $done({
       title: params.title,
-      content:`Duration: ${startTime}`,
+      content:`𝐃𝐮𝐫𝐚𝐭𝐢𝐨𝐧: ${startTime}`,
 		icon: params.icon,
 		"icon-color":params.color
     });
