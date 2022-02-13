@@ -9,7 +9,7 @@ const v4IP = v4.primaryAddress;
     if (!v4IP) {
         $.done({
             title: "𝐍𝐨𝐭 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝",
-            content: "",
+            content: "𝐏𝐥𝐞𝐚𝐬𝐞 𝐂𝐡𝐞𝐜𝐤 𝐍𝐞𝐭𝐰𝐨𝐫𝐤 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧",
             icon: "icloud.slash",
             "icon-color":params.color
         });
