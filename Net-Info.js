@@ -11,7 +11,7 @@ const v4IP = v4.primaryAddress;
             title: "𝐍𝐨𝐭 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝",
             content: "",
             icon: "icloud.slash",
-            "icon-color": params.color
+            "icon-color":params.color
         });
         return;
     }
@@ -27,7 +27,7 @@ const v4IP = v4.primaryAddress;
             + (wifi.ssid ? `𝐑𝐨𝐮𝐭𝐞𝐫 𝐀𝐝𝐝𝐫𝐞𝐬𝐬：${router}\n` : "")
             + `𝐄𝐱𝐭𝐞𝐫𝐧𝐚𝐥 𝐈𝐏：${externalIP}`,
         icon: wifi.ssid ? "wifi" : "antenna.radiowaves.left.and.right",
-        "icon-color": params.color
+        "icon-color":params.color
     };
     $.done(body);
 })();
