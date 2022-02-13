@@ -60,7 +60,7 @@ if(net=="en0") {
       `𝐂𝐮𝐫𝐫 - ${outCurrentSpeed} | ${inCurrentSpeed}\n` +
       `𝐏𝐞𝐚𝐤 - ${outMaxSpeed} | ${inMaxSpeed}`,
 		icon: params.icon,
-		  "icon-color":params.color
+		  "icon-color": params.color
     });
 
 })()
