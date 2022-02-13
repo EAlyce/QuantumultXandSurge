@@ -10,7 +10,8 @@ const v4IP = v4.primaryAddress;
         $.done({
             title: "𝐍𝐨𝐭 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝",
             content: "",
-            icon: "icloud.slash"
+            icon: "icloud.slash",
+            "icon-color": params.color
         });
         return;
     }
